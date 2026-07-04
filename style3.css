@@ -48,8 +48,12 @@ animation:pulse 2s infinite;
 }
 
 .image-box img{
-width:120px;
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:50%;
 }
+
 
 .text{
 color:#ffb6c1;
