@@ -25,7 +25,7 @@ function check(){
     }
 }
 
-// Page 5 ke liye
+
 function nextPage() {
     window.location.href = "page4.html";
 }
@@ -34,12 +34,10 @@ function openLetter() {
     window.location.href = "letter.html";
 }
 
-// Letter Page
 function openMessage() {
     document.getElementById("letterBox").style.display = "flex";
 }
 
-// Birthday Celebration
 function celebrate() {
 
     alert("🎉 Happy Birthday! 🎂❤️");
@@ -63,7 +61,6 @@ function celebrate() {
     })();
 }
 
-// Restart
 function restart() {
     window.location.href = "index.html";
 }
