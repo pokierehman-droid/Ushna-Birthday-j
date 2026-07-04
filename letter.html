@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Letter Just For You</title>
+
+    <link rel="stylesheet" href="letter.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <h1 class="title">A Letter, Just For You ❤️</h1>
+
+    <div class="line"></div>
+
+    <div class="envelope" onclick="openMessage()">
+        ❤️
+    </div>
+
+    <p class="tap">Tap the heart to open your letter</p>
+
+</div>
+
+
+<!-- Hidden Letter -->
+
+<div id="letterBox" class="popup">
+
+    <div class="letter">
+
+        <h2>My Dear ❤️</h2>
+
+        <p>
+            Happy Birthday! 🎉❤️<br><br>
+
+            Thank you for being such an amazing person.
+            I hope your life is always filled with happiness,
+            success and beautiful memories.
+
+            May every dream of yours come true.
+            Stay happy, keep smiling and never stop shining.
+
+            Once again...
+
+            <br><br>
+
+            <b>Happy Birthday! 🎂🎈</b>
+        </p>
+
+        <button onclick="celebrate()">🎉 CELEBRATE</button>
+
+        <button onclick="restart()">🔄 RESTART</button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

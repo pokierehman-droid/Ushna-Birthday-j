@@ -1,0 +1,97 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(#4b0000,#120000,#000);
+font-family:Poppins,sans-serif;
+overflow:hidden;
+}
+
+.container{
+text-align:center;
+}
+
+.title{
+font-family:Cinzel,serif;
+font-size:48px;
+color:#ffb6c1;
+text-shadow:0 0 20px #ff3b6b;
+animation:glow 2s infinite alternate;
+}
+
+.line{
+width:180px;
+height:2px;
+background:#ff8aa8;
+margin:20px auto;
+box-shadow:0 0 20px #ff5c8d;
+}
+
+.image-box{
+width:180px;
+height:180px;
+border-radius:50%;
+border:2px solid #ff6f91;
+display:flex;
+justify-content:center;
+align-items:center;
+margin:30px auto;
+box-shadow:0 0 40px #ff1744;
+animation:pulse 2s infinite;
+}
+
+.image-box img{
+width:120px;
+}
+
+.text{
+color:#ffb6c1;
+font-size:22px;
+margin-bottom:40px;
+font-style:italic;
+}
+
+.btn{
+padding:15px 60px;
+font-size:22px;
+border:none;
+border-radius:40px;
+background:#7b0018;
+color:white;
+cursor:pointer;
+box-shadow:0 0 25px #ff1744;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.1);
+background:#b3002d;
+}
+
+@keyframes glow{
+from{
+text-shadow:0 0 10px #ff3b6b;
+}
+to{
+text-shadow:0 0 35px #ff1744;
+}
+}
+
+@keyframes pulse{
+0%{
+transform:scale(1);
+}
+50%{
+transform:scale(1.05);
+}
+100%{
+transform:scale(1);
+}
+}
