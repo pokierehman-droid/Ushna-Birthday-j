@@ -29,7 +29,9 @@ function check(){
 function nextPage() {
     window.location.href = "page4.html";
 }
-
+function nextPage() {
+    window.location.href = "page5.html";
+}
 function openLetter() {
     window.location.href = "letter.html";
 }
