@@ -1,6 +1,7 @@
 let pass = "";
 
 function add(num){
+document.getElementById("clickSound").play();
     pass += num;
     document.getElementById("display").value = "•".repeat(pass.length);
 }
